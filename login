@@ -18,19 +18,19 @@
   </div>
   
   <div class="right-section">
-    <div class="login-box">
+    <div class="login-box" role="form">
       <h2>Log in</h2>
       <p>Simple quizzes</p>
       <form>
         <div class="input-group">
-          <label for="username">Username</label>
+          <label for="username" aria-label="Username">Username</label>
           <input type="text" id="username" name="username" required>
         </div>
         <div class="input-group">
-          <label for="password">Password</label>
+          <label for="password" aria-label="Password">Password</label>
           <input type="password" id="password" name="password" required>
         </div>
-        <button type="submit">Log In</button>
+        <input type="submit" value="Log In">
         <a href="#">Forgot your password?</a>
       </form>
     </div>
