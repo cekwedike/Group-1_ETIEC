@@ -10,7 +10,10 @@
 
 <div class="container">
   <div class="left-section">
-    <!-- Your image or SVG will go here -->
+    <img src="images/login.jpeg" alt="ETIEC logo">
+  </div>
+  
+  <form action="/login" method="post">
     <div class="text-box">
       <h1>ETIEC makes learning fun for kids.</h1>
       <p>Interactive games for math and science education.</p>
